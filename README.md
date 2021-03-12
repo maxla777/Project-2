@@ -14,6 +14,7 @@ Justin Bernier, Monique Ticzon, Tony Hart, Max Larsen
 ## Project Description
 Create crypto currency reccomendations by using machine learning modeling and predict performance
 
+Use Google Colab and scikit learn
 ---
 
 ## Objectives / Project Questions to Answer
