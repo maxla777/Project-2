@@ -39,3 +39,10 @@ Justin Bernier, Monique Ticzon, Tony Hart, Max Larsen
     Machine Learning Models - Team
     Data Analysis/Exploration - Team
     Technical Analysis Research - Team
+    
+---
+
+## Key Files
+    Justin/kraken_pull.ipynb - API call to Kraken to pull in crypto OCHLV data.  Dashboard is generated in this file too. 
+    Justin/krane_pull*.csv files - example pulls of ETH trade data in .csv format.
+    
