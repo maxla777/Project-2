@@ -58,14 +58,14 @@ Looked at the accuracy score, balanced accuracy score, Matthews Correlation coef
 
 * Random Forest Classifier
     * Technical Signals and Sentiment Signal on their own - better overall and extremely well on the recall score for the Positive class.
-    * Technical and Sentiment Signals Combined - did not perform as well overall in comparison to the AdaBoost Classifier.
+    * Technical and Sentiment Signals Combined - did not perform as well overall in comparison to the AdaBoost Classifier. (The below metrics represent the combined signals.)
 
 ![](Monique/Images/RF_confusion_matrix.png)
 ![](Monique/Images/RF_eval_metrics_tech_sent.png)
 
 * AdaBoost Classifier
     * Technical Signals and Sentiment Signal on their own - did not perform as well overall in comparison to the Random Forest Classifier.
-    * Technical and Sentiment Signals Combined - performed better overall in comparison to the Random Forest Classifier.
+    * Technical and Sentiment Signals Combined - performed better overall in comparison to the Random Forest Classifier. (The below metrics represent the combined signals.)
 
 ![](Monique/Images/AB_confusion_matrix.png)
 ![](Monique/Images/AB_eval_metrics_tech_sent.png)
