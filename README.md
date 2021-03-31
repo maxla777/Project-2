@@ -43,7 +43,7 @@ Exploration and Cleanup Process:
 * Pulling data from Kraken was relatively straightforward except for getting the date timestamp into a readable format.  It took quite awhile to realize it was stored in milliseconds UNIX. 
 * Cleanup processes used were to remove null values, convert the date and make it an index, prepare technical indicators and shift the data appropriately when looking at daily returns.  
 
-Unanticipated Data Preparation Problems
+Unanticipated Data Preparation Problems:
 * Null data affected the scaling of the data.
 * Limitations in using the Crypto News API - we could only go back to December 1st 2020 for the crypto news data that was used to derive sentiment. 
 
@@ -59,12 +59,14 @@ Looked at the accuracy score, balanced accuracy score, Matthews Correlation coef
 * Random Forest Classifier
     * Technical Signals and Sentiment Signal on their own - better overall and extremely well on the recall score for the Positive class.
     * Technical and Sentiment Signals Combined - did not perform as well overall in comparison to the AdaBoost Classifier.
+
 ![](Monique/Images/RF_confusion_matrix.png)
 ![](Monique/Images/RF_eval_metrics_tech_sent.png)
 
 * AdaBoost Classifier
     * Technical Signals and Sentiment Signal on their own - did not perform as well overall in comparison to the Random Forest Classifier.
     * Technical and Sentiment Signals Combined - performed better overall in comparison to the Random Forest Classifier.
+
 ![](Monique/Images/AB_confusion_matrix.png)
 ![](Monique/Images/AB_eval_metrics_tech_sent.png)
 
