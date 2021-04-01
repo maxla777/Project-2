@@ -14,6 +14,7 @@ Create crypto currency investing recommendations by using the better performing 
 ## Key Files
 * Justin/kraken_pull.ipynb - API call to Kraken to pull in crypto OCHLV data.  Dashboard is generated in this file too. 
 * Justin/kraken_pull*.csv files - example pulls of ETH trade data in .csv format.
+* Justin/EZCoin_Dashboard.png - screenshot of web portal showing dashboard
 * Max/crypto_sentiment_data_pull
 * Monique/ML_models_technical_sentiment.ipynb (Technical + Sentiment Signals)
 * Monique/ML_models_sentiment.ipynb (Sentiment Signal)
